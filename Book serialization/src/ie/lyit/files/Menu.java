@@ -20,7 +20,7 @@ public class Menu {
 	
    public void readOption(){
       Scanner kbInt = new Scanner(System.in);
-  	  System.out.println("\n\tEnter Option [1|2|3|4|5|6]");
+  	  System.out.print("\n\tEnter Option [1|2|3|4|5|6]: ");
    	  option=kbInt.nextInt();
    }
 					
